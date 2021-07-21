@@ -117,7 +117,7 @@
 '484':
   handle: Berk
   date: '2021-07-11T01:23:13'
-  name: Berk Cem Göksel
+  name: "Berk Cem G\xF6ksel"
   emoji: "\U0001F47E"
   mail: berkcgoksel@gmail.com
 '1192':
