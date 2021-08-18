@@ -1,6 +1,6 @@
 # Syllabus
 
-This is the syllabus for CSE 466, Fall 2020.
+This is the syllabus for CSE 466, Fall 2021.
 
 ## Course Description
 
@@ -30,55 +30,42 @@ Any reading material assigned will be from publicly-available sources on the int
 
 # Course Communication
 
-All announcements and communications for the class will take place through the class mailing list.
-Students are *required* to subscribe to the class mailing list.
+All announcements and communications for the class will take place on the pwn.college discord, with announcements in the #announcements public channel and discussion in the #text class-specific channel.
+Students are *required* to be on this discord.
 
-Student may use the class mailing list to ask questions or clarifications, and the TA, Instructor, or other students can answer.
-Note that sharing solutions or answers is expressly prohibited.
+Student may use the discord to ask questions or clarifications, and the TA, Instructor, or other students can answer.
+Note that sharing full solution scripts or answers is expressly prohibited, but otherwise, collaboration on the way to the solution is allowed.
+If done digitally, such collaboration *must* take place on the official pwn.college discord, in one of the text or voice channels created for this purpose.
+Collaboration on other discords or other digital channels will be considered to be an academic integrity violation.
 
-Questions should be emailed to both the TA (connor.d.nelson@asu.edu) and the professor (yans@asu.edu), for example, via [this link](mailto:pwn-college@asu.edu).
+Questions should be emailed to [pwn-college@asu.edu](mailto:pwn-college@asu.edu).
 Questions meant just for the professor should be addressed to the following email address: yans@asu.edu.
+PLEASE do not email course material questions just to Yan: he gets super swamped and starts packet dropping.
+Your questions will get much more attention if sent to [pwn-college@asu.edu](mailto:pwn-college@asu.edu).
 
-If at all possible, please use the mailing list for communication to the professor or the TAs, unless the communication is private.
+Before emailing your question, please consider asking it on the discord instead.
 This way, the entire class will benefit from your question.
-Note that if we deem it necessary and helpful, we will CC the class mailing list when replying to direct emails.
 
 # Course Topics
 
-The course will consist of modules about:
-
-* Linux operating system fundamentals, program misuse and privilege escalation.
-* Sandboxes and sandbox failures.
-* Program reverse engineering.
-* Traditional memory corruption (buffer overflows).
-* Binary code injection.
-* Advanced exploitation scenarios.
-* If we have time, some of:
-   * Modern cryptographic security.
-   * Content injection beyond binary code.
-   * Security of machine learning and AI.
-   * Serialization vulnerabilities.
-   * OS kernel exploitation.
-   * Automating bug hunting.
-
-Each module will take one week, with several breaks throughout the semester for review, catch-up, and voting.
+The course will consist of the modules listed on https://pwn.college.
+Each module will take roughly one week, with some slack throughout the semester for review and catch-up.
 
 # Assessment
 
 ## Assignments only, no exams or quizzes.
 
-Students will be evaluated on their performance on between 7 and 14 equally-weighted homework assignments.
+Students will be evaluated on their performance on between 7 and 14 equally-weighted homework assignments (the modules), with each assignment consisting of between 20 and 150 (yes, really) challenge problems.
 
 ## Assignment timing.
 
-Assignments will be released at the end of class.
-There will be no more than one assignment live at a time.
-Assignments will normally be due at 3pm, one week after they are assigned (i.e., a homework assigned at the end of class on Wednesday would normally be due at 3pm the next Wednesday).
-All grading is done automatically through flag submissions, and *late submissions will not be accepted under any circumstances*.
+Assignments will be released at the end of class, and will normally be due at noon, one week after they are assigned (i.e., a homework assigned at the end of class on Tuesday would normally be due at noon the next Tuesday).
+All grading is done automatically through flag submissions.
+Late submissions are allowed, but only earn half points toward the final grade.
 
 ## Challenge-based assignments with flags as rewards.
 
-Each assignment will consist of a large amount of varied, but slightly similar challenges, and will be live for between one and two weeks.
+Each assignment will consist of a large amount of varied, but related challenges, and will be live for between one and two weeks.
 Solving these challenges may require the use or implementation of fairly complex hacking tools.
 Solving each individual challenge will grant a _challenge-specific_ passcode, called a "flag".
 The maximum number of flags possible to score for an assignment is equal to the maximum number of challenges in the assignment.
@@ -89,7 +76,7 @@ If you tricked the challenge into giving you the valid flag, good job.
 ## Converting flags to grades.
 
 For each assignment, a student's grade is the ratio of the flags they earn out of the possible flags, scaled to 100%.
-If a student earns 70 flags from 70 challenges on an assignment (yes, assignments may be this big), they will receive 100%.
+If a student earns 70 flags from 70 challenges on an assignment (yes, assignments may be this big and even bigger), they will receive 100%.
 If they earn 50 flags out of 70 possible ones, they will get 71% on the assignment.
 
 ## Extra credit: CTFs
@@ -97,10 +84,23 @@ If they earn 50 flags out of 70 possible ones, they will get 71% on the assignme
 There are cybersecurity competitions being held every weekend.
 Every weekend, during the semester, you and your friends can participate in one CTF and earn one percentage point bonus in the course.
 Teams can be anywhere from a minimum of 4 players to a maximum of 8 players.
+If you need a team size exception (for example, to play with a well-established CTF team), please email us.
 Each player will have to submit a writeup about what they worked on during the weekend, what they solved, and what they learned.
-Solving is not necessary, but participation is.
 
-A maximum of 14% extra credit is possible with this method, bringing the total achievable points so far to 114%.
+To get the percentage point of extra credit, you need to either solve a _non-trivial_ challenge (i.e., not a "sanity check") _or_ put in at least 8 hours of effort.
+
+You can earn one percentage point per weekend, up to a maximum of 14% or 15% added to your final grade, depending on the exact timing of when grades are due and so on (which could vary slightly due to COVID).
+The expected amount of viable weekends is 15.
+
+## Extra credit: helping others.
+
+**NEW THIS YEAR!** We have recruited the help of a reputation bot on the pwn.college discord.
+Whenever you get thanked by a student in a public channel, the reputation bot will award reputation.
+At the end of the semester, we will tally up this reputation and run something like PageRank on the reputation graph to award up to 10% extra credit.
+
+This is a new, experimental extra credit system.
+Please do not abuse and ruin it.
+We will consider adversarial reputation farming to be cheating, and respond accordingly.
 
 ## More extra credit: bug bounty program.
 
@@ -108,17 +108,13 @@ Any *responsibly-disclosed* _serious_ security issues in course infrastructure w
 Blatantly spurtious reports may earn a *negative* percentage report of up to -15 percentage points.
 Allowances will be made for honest mistakes leading to a spurtious bug bounty filing, but don't waste our time on purpose.
 
-## More extra credit: making up missed challenges.
-
-On the last day of the course, we will calculate the grade of an aggregate assignment comprising of all challenges ever released.
-This way, if you didn't manage to solve a given challenge of a module before the deadline, you'll have an extra chance to do so at the end for some partial credit.
-
 ## Final grade calculation.
 
-The final grade will be calculated by averaging the grades of each homework assignment, equally weighted.
-For example, if there are 10 assignments, and a student scores 100% on each assignment and participates in a CTF every weekend, they will score 114%.
+The final grade will be calculated by averaging the grades of each homework assignment, equally weighted, then adding extra credit.
+For example, if there are 10 assignments, and a student scores 100% on each assignment, participates in a CTF every weekend, and is the most helpful student on discord, they will score 125%.
 If they score 100% on each assignment and ignore CTFs, they will score 100%.
 If they score 100% on each assignment except for one assignment that they blow off completely, they will get a grade of 90%.
+Being the most helpful on discord will bring that back up to 100%.
 
 Percentages will be translated to letter grades with the following initial cutoffs:
 
@@ -139,7 +135,15 @@ With the exception of the cutoff for A+, these cutoffs can be curved _downward_ 
 That is, if you earn an 88% in the course, you are guaranteed at least a B+, but if everyone else does super poorly, the curve might pull you up to an A, but never an A+.
 Updates on the theme of "what would the cutoffs be if the course ended today" will be provided at the conclusion of each assignment.
 
-**Y GRADES:** To ease student suffering in the current situation, I am offering Y grades for CSE 466. A Y grade does not impact your GPA, and represents a C or better in the course. If you wish to switch to a Y grading system, please let me know immediately. It is not possible to switch back _out_ of a Y grading system, so please ensure that this will not impact your graduation requirements.
+For expectation management, in Fall 2021, the final curve was:
+
+| Percentage Grade | Letter Grade |
+|------------------|--------------|
+| >= 82            | A            |
+| >= 67            | B            |
+| >= 52            | C            |
+| >= 37            | D            |
+| < 37             | E            |
 
 # Special Accommodations
 
@@ -162,15 +166,15 @@ Posting your assignment solutions online _before the due date of the assignment_
 Note that this includes working out of a public Github repository.
 The [Github Student Developer Pack](https://education.github.com/pack) provides unlimited private repositories while you are a student, making it easy to begin with a private GitHub repository and easily make it public after the assignment deadline.
 
-**Collaboration policy:** New this year: we will set aside the last hour of class for _active collaboration time_ for students. We will split up the class into groups, randomly, and you may freely collaborate on solutions during class time. Be extremely careful not to share code or flags (ESPECIALLY flags); only ideas.
+**Collaboration policy:** New this year: we are a kinder, gentler CSE 466, and full collaboration (except for direct sharing of solution scripts) is allowed in person or on the official pwn.college discord. Collaboration through other discords or other digital channels is not allowed, and will be considered an academic integrity violation. Sharing of solution scripts or flags is not allowed, and will be considered an academic integrity violation.
 
 # Syllabus Update
 
-Information in the syllabus may be subject to change with reasonable advance notice and an email to the class mailing list.
+Information in the syllabus may be subject to change with reasonable advance notice and an announcement on discord.
 
 # Misc
 
-Syllabus copyright 2020 Yan Shoshitaishvili, along with all lectures and course-related written materials.
+Syllabus copyright 2021 Yan Shoshitaishvili, along with all lectures and course-related written materials.
 During this course students are prohibited from making audio, video, digital, or other recordings during class, or selling notes to or being paid for taking notes by any person or commercial firm without the express written permission of the faculty member teaching this course.
 Be reasonable.
 
