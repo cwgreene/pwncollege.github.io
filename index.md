@@ -9,19 +9,17 @@ It powers ASU's Computer Systems Security course, CSE466, and is now open, for f
 
 pwn.college is hosted across a number of internet services:
 - **LECTURES:** We record our [lectures on YouTube](https://www.youtube.com/c/pwncollege) (for those that prefer offline versions, they are available on [Dropbox](https://www.dropbox.com/sh/90838y3y45k7yvv/AACvZO2ej2_ri0oe4Jkl4GSBa?dl=0)).
-- **OFFICE HOURS:** We stream our [classes on Twitch](https://www.twitch.tv/pwncollege/) during the fall semester (over for 2020), along with office hours and prerecorded lecture streams.
+- **OFFICE HOURS:** We stream our [classes on Twitch](https://www.twitch.tv/pwncollege/) during the fall semester, along with office hours and prerecorded lecture streams.
 - **CHALLENGES:** We host [practice problems on our infrastructure](https://cse466.pwn.college).
-- **DISCORD:** We collaborate on [discord](/discord)!
-- **MAILING LIST:** We answer questions about pwn.college on [the public google group](https://groups.google.com/g/pwn-college-users).
-- **OPEN SOURCE:** We host our [open source on GitHub](https://github.com/pwncollege).
+- **DISCORD:** We collaborate on [discord](/discord)! **NOTE: if you are enrolled in ASU CSE466, please use the private link to join the discord so that you get assigned to the correct role!**
+- **OPEN SOURCE:** We host our [open source stuff on GitHub](https://github.com/pwncollege).
 
-**Stream Schedule from August through November (NOTE: PLEASE make sure to watch all the module videos before the Wednesday stream!):**
-- **COMING BACK AUGUST 2021:** Module video stream (pre-recorded): weekly [on Twitch](https://www.twitch.tv/pwncollege/).
-- **COMING BACK AUGUST 2021:** Extended module Q&A, auxiliary lecturing, and collaborative problem solving (live): weekly [on Twitch](https://www.twitch.tv/pwncollege/).
-- **COMING BACK AUGUST 2021:** Yan's office hours (live): weekly [on Twitch](https://www.twitch.tv/pwncollege/).
-- **COMING BACK AUGUST 2021:** Connor's office hours (live): weekly [on Twitch](https://www.twitch.tv/pwncollege/).
+**Stream Schedule from August through November (NOTE: PLEASE make sure to watch all available module videos before the Tuesday and Thursday streams!):**
+- **TBD:** Module video stream (pre-recorded): weekly [on Twitch](https://www.twitch.tv/pwncollege/).
+- **Tuesday and Thursdays 4:30pm to 5:45pm:** Extended module Q&A, auxiliary lecturing, and collaborative problem solving (live): weekly [on Twitch](https://www.twitch.tv/pwncollege/) and in ASU Murdock Lecture Hall room 201.
+- **TBD:** Connor's office hours (live): weekly [on Twitch](https://www.twitch.tv/pwncollege/).
 
-All streams are open to THE WORLD! ASU students will get a private voice channel, but everyone can ask questions on twitch.
+All streams are open to THE WORLD! Want to ask voice questions? Come to ASU MUR-201.
 
 If you have other comments, suggestions, and feedback, please email us at [pwn-college@asu.edu](mailto:pwn-college@asu.edu)!
 
@@ -56,8 +54,10 @@ Each module has a set of lecture slides and videos and practice problems auto-ge
 Challenges come in a _teaching_ variety, which will walk you through their own solutions, and a _testing_ variety, which will challenge you with less guidance.
 Challenges are run directly on pwn.college, and can be launched in _practice_ mode, where you have root access but there is a fake flag, and _real_ mode, where you cannot read the flag without exploiting the challenge.
 
-pwn.college has come out of beta, and modules are being launched alongside the progress of ASU's Fall 2020 CSE466 class.
-So far, the following modules are live:
+This year's modules will launch alongside the progress of ASU's Fall 2021 CSE466 class.
+Modules will be launched on more or less a weekly basis!
+
+**Last year's modules** are archived for the interested and impatient:
 
 - [Module 0: Introduction](modules/intro)
 - [Module 1: Program Misuse](modules/suid)
@@ -73,8 +73,6 @@ So far, the following modules are live:
 - [Module 11: Advanced Exploitation](modules/combo2)
 - [Module 12: Automatic Vulnerability Discovery](modules/auto)
 
-Modules will be launched on a weekly basis (except for binary reverse engineering, which has been extended to two weeks)!
-If you are impatient, you can check out archived modules from the pwn.college beta at the bottom of the page.
 
 # Earning Your Belts
 
