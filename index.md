@@ -8,16 +8,16 @@ pwn.college was created by [Zardus (Yan Shoshitaishvili)](http://yancomm.net) an
 It powers ASU's Computer Systems Security course, CSE466, and is now open, for free, to participation for interested people around the world!
 
 pwn.college is hosted across a number of internet services:
-- **LECTURES:** We record our [lectures on YouTube](https://www.youtube.com/c/pwncollege) (for those that prefer offline versions, they are available on [Dropbox](https://www.dropbox.com/sh/90838y3y45k7yvv/AACvZO2ej2_ri0oe4Jkl4GSBa?dl=0)).
-- **OFFICE HOURS:** We stream our [classes on Twitch](https://www.twitch.tv/pwncollege/) during the fall semester, along with office hours and prerecorded lecture streams.
-- **CHALLENGES:** We host [practice problems on our infrastructure](https://cse466.pwn.college).
+- **LECTURES:** We record our [lectures on YouTube](https://www.youtube.com/pwncollege) (for those that prefer offline versions, they are available on [Dropbox](https://www.dropbox.com/sh/90838y3y45k7yvv/AACvZO2ej2_ri0oe4Jkl4GSBa?dl=0)).
+- **OFFICE HOURS:** We stream our [classes on Twitch](https://www.twitch.tv/pwncollege) during the fall semester, along with office hours and prerecorded lecture streams.
+- **CHALLENGES:** We host [practice problems on our infrastructure](https://dojo.pwn.college).
 - **DISCORD:** We collaborate on [discord](/discord)! **NOTE: if you are enrolled in ASU CSE466, please use the private link to join the discord so that you get assigned to the correct role!**
 - **OPEN SOURCE:** We host our [open source stuff on GitHub](https://github.com/pwncollege).
 
 **Stream Schedule from August through November (NOTE: PLEASE make sure to watch all available module videos before the Tuesday and Thursday streams!):**
-- **TBD:** Module video stream (pre-recorded): weekly [on Twitch](https://www.twitch.tv/pwncollege/).
-- **Tuesday and Thursdays 4:30pm to 5:45pm:** Extended module Q&A, auxiliary lecturing, and collaborative problem solving (live): weekly [on Twitch](https://www.twitch.tv/pwncollege/) and in ASU Murdock Lecture Hall room 201.
-- **TBD:** Connor's office hours (live): weekly [on Twitch](https://www.twitch.tv/pwncollege/).
+- **TBD:** Module video stream (pre-recorded): weekly [on Twitch](https://www.twitch.tv/pwncollege).
+- **Tuesday and Thursdays 4:30pm to 5:45pm:** Extended module Q&A, auxiliary lecturing, and collaborative problem solving (live): weekly [on Twitch](https://www.twitch.tv/pwncollege) and in ASU Murdock Lecture Hall room 201.
+- **TBD:** Connor's office hours (live): weekly [on Twitch](https://www.twitch.tv/pwncollege).
 
 All streams are open to THE WORLD! Want to ask voice questions? Come to ASU MUR-201.
 
