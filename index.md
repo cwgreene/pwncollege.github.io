@@ -57,9 +57,13 @@ Challenges are run directly on pwn.college, and can be launched in _practice_ mo
 This year's modules will launch alongside the progress of ASU's Fall 2021 CSE466 class.
 Modules will be launched on more or less a weekly basis!
 
-**Last year's modules** are archived for the interested and impatient:
+**This year's modules** that have launched:
 
 - [Module 0: Introduction](modules/intro)
+- [Module 1: Program Interaction](modules/interaction)
+
+**Last year's modules** are archived for the interested and impatient:
+
 - [Module 1: Program Misuse](modules/suid)
 - [Module 2: Shellcode](modules/shellcode)
 - [Module 3: Sandboxing](modules/sandbox)
