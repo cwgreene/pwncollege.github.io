@@ -59,7 +59,7 @@ Students will be evaluated on their performance on between 7 and 14 equally-weig
 
 ## Assignment timing.
 
-Assignments will be released at the end of class, and will normally be due at noon, one week after they are assigned (i.e., a homework assigned at the end of class on Tuesday would normally be due at noon the next Tuesday).
+Assignments will be released at the end of class, and will normally be due at 4pm, one week after they are assigned (i.e., a homework assigned at the end of class on Tuesday would normally be due at 4pm the next Tuesday).
 All grading is done automatically through flag submissions.
 Late submissions are allowed, but only earn half points toward the final grade.
 
