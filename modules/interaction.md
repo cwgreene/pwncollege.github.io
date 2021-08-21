@@ -16,9 +16,10 @@ The following videos have been upgraded from Fundamentals to a core part of this
 
 ## Practice Problems
 
-Practice problems for this module are launching on Aug 19, 2021!
+Practice problems for this module are live at [the dojo](https://dojo.pwn.college/challenges/interaction)!
 
 ## Further Reading
 
 - For launching programs from Python, we recommend using [pwntools](https://docs.pwntools.com/en/stable/intro.html), but [subprocess](https://docs.python.org/3/library/subprocess.html) should work as well.
 - Some [documentation](https://www.binarytides.com/socket-programming-c-linux-tutorial/) on networking in C.
+- Useful resource for [pipes in C](https://jameshfisher.com/2017/02/17/how-do-i-call-a-program-in-c-with-pipes/).
