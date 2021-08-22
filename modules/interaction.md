@@ -27,3 +27,4 @@ Practice problems for this module are live at [the dojo](https://dojo.pwn.colleg
 - Remember to `wait()` on your children! If you use `subprocess.Popen`, `pwn.process`, or good old `fork()`, your parent will keep executing and, unless it waits for the child in some way, will just terminate! This is almost never what you want.
 - Some [documentation](https://www.binarytides.com/socket-programming-c-linux-tutorial/) on networking in C.
 - Useful resource for [pipes in C](https://jameshfisher.com/2017/02/17/how-do-i-call-a-program-in-c-with-pipes/).
+- Useful resource for [FIFOs in C](https://www.geeksforgeeks.org/named-pipe-fifo-example-c-program/).
