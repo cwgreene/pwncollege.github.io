@@ -10,7 +10,7 @@ It powers ASU's Computer Systems Security course, CSE466, and is now open, for f
 pwn.college is hosted across a number of internet services:
 - **LECTURES:** We record our [lectures on YouTube](https://www.youtube.com/pwncollege) (for those that prefer offline versions, they are available on [Dropbox](https://www.dropbox.com/sh/90838y3y45k7yvv/AACvZO2ej2_ri0oe4Jkl4GSBa?dl=0)).
 - **OFFICE HOURS:** We stream our [classes on Twitch](https://www.twitch.tv/pwncollege) during the fall semester, along with office hours and prerecorded lecture streams.
-- **CHALLENGES:** We host [practice problems on our infrastructure](https://dojo.pwn.college).
+- **CHALLENGES:** We host [practice problems in our dojo](https://dojo.pwn.college).
 - **DISCORD:** We collaborate on [discord](/discord)! **NOTE: if you are enrolled in ASU CSE466, please use the private link to join the discord so that you get assigned to the correct role!**
 - **OPEN SOURCE:** We host our [open source stuff on GitHub](https://github.com/pwncollege).
 
