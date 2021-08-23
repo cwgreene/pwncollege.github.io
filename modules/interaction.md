@@ -28,6 +28,8 @@ Practice problems for this module are live at [the dojo](https://dojo.pwn.colleg
 - Some [documentation](https://www.binarytides.com/socket-programming-c-linux-tutorial/) on networking in C.
 - Useful resource for [pipes in C](https://jameshfisher.com/2017/02/17/how-do-i-call-a-program-in-c-with-pipes/).
 - Useful resource for [FIFOs in C](https://www.geeksforgeeks.org/named-pipe-fifo-example-c-program/).
+- A treatise on I/O redirection in Linux shells, which has applications in this assignment: [https://bencane.com/2012/04/16/unix-shell-the-art-of-io-redirection/](https://bencane.com/2012/04/16/unix-shell-the-art-of-io-redirection/)
+- A guide on Linux symbolic links. [https://www.nixtutor.com/freebsd/understanding-symbolic-links/](https://www.nixtutor.com/freebsd/understanding-symbolic-links/)
 
 ## Programs accessing arguments and environment variables
 
