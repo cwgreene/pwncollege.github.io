@@ -8,6 +8,10 @@ Here is the introductory lecture. It was recorded in Fall 2020, and subsequent o
 
 - [What is Computer Systems Security?](https://www.youtube.com/watch?v=bJTThdqui0g) (slides [here](https://docs.google.com/presentation/d/1YlTxeZg03P234EgG4E4JNGcit6LZovAxfYGL1YSLwfc/edit?usp=sharing))
 
+The following live "extended Q&As" are associated with this module:
+
+- [Extended Q&A 8/19/2021](https://www.youtube.com/watch?v=2chgNhxt-Kc)
+
 ## Practice Problems
 
 There are no practice problems for this module!
