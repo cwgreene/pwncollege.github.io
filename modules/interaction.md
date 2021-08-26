@@ -14,6 +14,10 @@ The following videos have been upgraded from Fundamentals to a core part of this
 - [Program Interaction: Linux Process Loading](https://www.youtube.com/watch?v=kUMCAzSOY-o) (slides [here](https://docs.google.com/presentation/d/1TwM5WLWnTqrNkpXjGKkaXYbKZEpatEQYA7ckBVXAOhs/edit?usp=sharing))
 - [Program Interaction: Linux Process Execution](https://www.youtube.com/watch?v=Vtb5wIlthRg) (slides [here](https://docs.google.com/presentation/d/1ezY9Q8I0tzDD-7ZDXMbQM5RQ7z1dvB9-U_nDEhc6qdE/edit#slide=id.g8a9f5b81a5_0_0))
 
+The following live Q&As were done for this module:
+
+- [8/24/21](https://youtu.be/HroVArg5s5A)
+
 ## Practice Problems
 
 Practice problems for this module are live at [the dojo](https://dojo.pwn.college/challenges/interaction)!
