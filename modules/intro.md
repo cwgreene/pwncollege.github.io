@@ -1,6 +1,6 @@
 # Module: Introduction
 
-This module contains an introduction to for the course.
+This module contains an introduction to the course.
 
 ## Lectures
 

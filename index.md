@@ -62,10 +62,11 @@ Modules will be launched on more or less a weekly basis!
 - [Module 0: Introduction](modules/intro)
 - [Module 1: Program Interaction](modules/interaction)
 - [Module 2: Program Misuse](modules/misuse)
+- [Module 3: Assembly Refresher](modules/asm)
+- [Module 4: Shellcoding](modules/shellcode)
 
 **Last year's modules** are archived for the interested and impatient:
 
-- [Module 2: Shellcode](modules/shellcode)
 - [Module 3: Sandboxing](modules/sandbox)
 - [Module 4: Binary Reverse Engineering](modules/reversing)
 - [Module 5: Memory Errors](modules/memory)
