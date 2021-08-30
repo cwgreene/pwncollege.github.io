@@ -34,6 +34,8 @@ Practice problems for this module are live at [the dojo](https://dojo.pwn.colleg
 - Useful resource for [FIFOs in C](https://www.geeksforgeeks.org/named-pipe-fifo-example-c-program/).
 - A treatise on I/O redirection in Linux shells, which has applications in this assignment: [https://bencane.com/2012/04/16/unix-shell-the-art-of-io-redirection/](https://bencane.com/2012/04/16/unix-shell-the-art-of-io-redirection/)
 - A guide on Linux symbolic links. [https://www.nixtutor.com/freebsd/understanding-symbolic-links/](https://www.nixtutor.com/freebsd/understanding-symbolic-links/)
+- A video tutorial on [FIFOs in C](https://www.youtube.com/watch?v=2hba3etpoJg).
+- A great [visual guide to I/O redirection in Linux](http://www.rozmichelle.com/pipes-forks-dups/).
 
 ## Programs accessing arguments and environment variables
 
