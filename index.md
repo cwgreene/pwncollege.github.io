@@ -4,7 +4,7 @@ pwn.college is a first-stage education platform for students (and other interest
 It is designed to take a "white belt" in cybersecurity to becoming a "blue belt", able to approach (simple) CTFs and wargames.
 The philosophy of pwn.college is "practice makes perfect".
 
-pwn.college was created by [Zardus (Yan Shoshitaishvili)](http://yancomm.net) and [kanak (Connor Nelson)](https://connornelson.com) at Arizona State University.
+pwn.college was created by [Zardus (Yan Shoshitaishvili)](http://yancomm.net) and [kanak (Connor Nelson)](https://connornelson.com) at Arizona State University, with help from [mahaloz (Zion Basque)](https://www.zionbasque.com), redgate, Pascal-0x90, frqmod, and [adamd (Adam Doupe)](https://adamdoupe.com).
 It powers ASU's Computer Systems Security course, CSE466, and is now open, for free, to participation for interested people around the world!
 
 pwn.college is hosted across a number of internet services:
