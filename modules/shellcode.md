@@ -14,7 +14,7 @@ Additionally, you should be quite familiar with the material in the [assembly re
 
 ## Practice
 
-Practice problems for this module will launch on 8/31 on [the dojo](dojo.pwn.college)!
+Practice problems for this module will launch on 8/31 on [the dojo](https://dojo.pwn.college)!
 
 ## Resources
 
